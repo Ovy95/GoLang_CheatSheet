@@ -36,6 +36,30 @@ fruit := "apple"
 * byte        alias for uint8
 * rune        alias for int32
 
+# For each Loop
+Standard Loop  results 
+strings := []string{"hello", "world"}
+for i, s := range strings {
+    fmt.Println(i, s)
+} // hello world
+
+Underscores can be used for when we don't want to use the variables 
+before 
+for i, suits := range cardSuits {
+		for j, values := range cardValues {
+			cards = append(cards, values+" of "+suits)
+		}
+
+	}
+	return cards
+  After this will return the result of values and suits into our cards variable
+for _, suits := range cardSuits {
+		for _, values := range cardValues {
+			cards = append(cards, values+" of "+suits)
+		}
+
+	}
+	return cards
 
 # FMT Package
 Difference between Print and Println Used to print in terminal 
