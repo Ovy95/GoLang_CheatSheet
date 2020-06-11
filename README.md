@@ -61,6 +61,11 @@ for _, suits := range cardSuits {
 	}
 	return cards
 
+## Byte slice 
+
+           "Hi there"    string value
+                 ↓
+[72 105 32 116 104 101 114 101 33] byte slice
 # FMT Package
 Difference between Print and Println Used to print in terminal 
 fmt.Print("I", "am", "hungry")
