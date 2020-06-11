@@ -63,9 +63,12 @@ for _, suits := range cardSuits {
 
 ## Byte slice 
 
-           "Hi there"    string value
+ greeting :=  "Hi there"    string value
+    fmt.Println([]byte(greeting))
                  ↓
 [72 105 32 116 104 101 114 101 33] byte slice
+
+
 # FMT Package
 Difference between Print and Println Used to print in terminal 
 fmt.Print("I", "am", "hungry")
@@ -88,3 +91,4 @@ fmt.Print.f ("My name is %v)
 * %t	the word true or false
 
 
+## Byte Convertion 
