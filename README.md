@@ -106,6 +106,19 @@ IF a * is where a type is, it points at the type's information, an example struc
 Otherwise If the  pointer is like so  `*pointertoperson` It meants we want to manipulate the value for example change the value in the Persons type, E.g Name or surname change.
 
 
+| Value Types   | Reference Types |
+| ------------- | ------------- |
+| int  | slices  |
+| float  | maps  |
+| string  | channels  |
+| bools  | pointers  |
+| structs  | functions  |
+<br>
+Values types 
+- Use pointers to change things in a function	<br>
+Reference Types
+- Don't worry about pointers
+
 ## Arrays vs Slices
 Arrays
 * Primitive data structure
