@@ -129,6 +129,18 @@ Slices
 * Can grow and shrink
 * Used 99% of the time for lists of elements
 
+## Maps vs Structs 
+
+| Maps   | Sturcts |
+| ------------- | ------------- |
+| All *keys* must be the same type.             All the *values* must be the same type | Values can be of differeent type   |
+| Use to represent a collection of related propert  | You need to know all the different fields at compile time  |
+| Don't need to know all the keys at compile time  | Keys don't support indexing   |
+| keys are indexed - we can iterate over them  | use to represent a "thing" with a lot of differeent properties  |
+| reference type!  | Value Type!  |
+
+
+
  
 
 
