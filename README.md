@@ -91,4 +91,36 @@ fmt.Print.f ("My name is %v)
 * %t	the word true or false
 
 
-## Byte Convertion 
+## Struct and Pointers 
+`waynePointer := &wayne`<br>
+	`waynePointer.updateName("Paul")`<br>
+	`wayne.print()`
+`}"`
+
+&Varible - Gives acess to the memory address of the value this variable is pointing at.
+
+`*pointer` Gives the value of the memory address is pointing at 
+
+IF a * is where a type is, it points at the type's information, an example struct `*person` might be in a receiver function which meants it will great the informations type name,surname etc. A description of a type.
+<br>
+Otherwise If the  pointer is like so  `*pointertoperson` It meants we want to manipulate the value for example change the value in the Persons type, E.g Name or surname change.
+
+
+## Arrays vs Slices
+Arrays
+* Primitive data structure
+* can't be resized
+* rarely used directly
+
+Slices
+* Can grow and shrink
+* Used 99% of the time for lists of elements
+
+ 
+
+
+
+
+
+
+
