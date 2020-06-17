@@ -140,7 +140,11 @@ Slices
 | reference type!  | Value Type!  |
 
 
+## Interfaces
 
+We use interfaces to define a method set or a function set right here.
+We're kind of defining what something of type but what different functions and return types it should
+have.
  
 
 
