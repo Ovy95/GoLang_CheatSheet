@@ -142,11 +142,16 @@ Slices
 
 ## Interfaces
 
-We use interfaces to define a method set or a function set right here.
-We're kind of defining what something of type but what different functions and return types it should
+We use interfaces to define a method set or a function set.
+We're kind of defining what something of type is but what different functions and return types it should
 have.
  
+## Concurrency vs Parallelism
 
+| Concurrency    | Parallelism |
+| ------------- | ------------- |
+| <img width="751" alt="Screenshot 2020-06-19 at 10 49 42" src="https://user-images.githubusercontent.com/57540755/85120853-bd6b2c00-b21b-11ea-9f2f-c4157732ec95.png"> | <img width="859" alt="Screenshot 2020-06-19 at 10 59 53" src="https://user-images.githubusercontent.com/57540755/85121056-0fac4d00-b21c-11ea-9735-812ba1626948.png">
+ |
 
 
 
