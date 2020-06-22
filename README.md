@@ -38,13 +38,18 @@ fruit := "apple"
 
 # For each Loop
 Standard Loop  results 
+```
 strings := []string{"hello", "world"}
 for i, s := range strings {
     fmt.Println(i, s)
 } // hello world
+```
+
 
 Underscores can be used for when we don't want to use the variables 
 before 
+
+```
 for i, suits := range cardSuits {
 		for j, values := range cardValues {
 			cards = append(cards, values+" of "+suits)
@@ -52,7 +57,10 @@ for i, suits := range cardSuits {
 
 	}
 	return cards
+```
+
   After this will return the result of values and suits into our cards variable
+  ```
 for _, suits := range cardSuits {
 		for _, values := range cardValues {
 			cards = append(cards, values+" of "+suits)
@@ -60,14 +68,14 @@ for _, suits := range cardSuits {
 
 	}
 	return cards
-
+```
 ## Byte slice 
-
+```
  greeting :=  "Hi there"    string value
     fmt.Println([]byte(greeting))
                  ↓
 [72 105 32 116 104 101 114 101 33] byte slice
-
+```
 
 # FMT Package
 Difference between Print and Println Used to print in terminal 
@@ -77,10 +85,11 @@ fmt.Println("I", "am", "hungry")
 // I am cool
 
 Scan used to grab user input in terminal 
+```
 fmt.Scan(&name)
 fmt.Print.f ("My name is %v)
 // "My name is Jack"
-
+```
 ## Verbs
 
 * %v represents the named value in its default format
